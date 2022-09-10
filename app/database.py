@@ -22,7 +22,7 @@ def get_db():
     finally:
         db.close()
 
-#For demonstration purposes, connection without use of sqlalchemy
+# For demonstration purposes, connection without use of sqlalchemy
 # while True:
 #     try:
 #         conn = psycopg2.connect(host="", database="", user="",
